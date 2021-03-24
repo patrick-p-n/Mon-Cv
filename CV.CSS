@@ -1,8 +1,17 @@
+body{
+	background-color: grey;
+}
 .page{
 	width: 780px;
 	margin: auto;
 	font-family: 'Source sans pro', Calibri, tahoma, sans-serif;  
 	font-size: 16px;
+	border: 5px solid #3388BB;
+	border-radius: 10px; 
+	box-shadow:2px 3px 4px black;
+	padding: 20px; 
+	background-color: white; 
+	
 }
 .infophoto{
 	height: 250px;
@@ -26,6 +35,7 @@
 }
 .sec-droite {
 	margin-left: 150px;
+	margin-top: 20px;
 }
 h2{
 	font-size: 28px;
@@ -43,4 +53,10 @@ h2{
 }
 #format-gauche p{
 	margin-bottom: 20px; 	 
+}
+#forma-gauche p{
+	margin-bottom: 37px;
+}
+#exp-gauche{
+	margin-top:32px;
 }
